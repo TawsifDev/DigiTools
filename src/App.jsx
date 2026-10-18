@@ -6,7 +6,7 @@ import { Navbar } from './Components/Navbar/Navbar'
 import { StepsSection } from "./Components/Banner/StepSection";
 import { PricingSection } from "./Components/Banner/PricingSection";
 
-function App() { 
+function App() {
 
   return (
     <>
