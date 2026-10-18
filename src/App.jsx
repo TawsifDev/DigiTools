@@ -3,6 +3,8 @@ import { Banner } from './Components/Banner/Banner'
 import { StatSection } from './Components/Banner/StatSection'
 import { Footer } from './Components/Footer/Footer'
 import { Navbar } from './Components/Navbar/Navbar'
+import { StepsSection } from "./Components/Banner/StepSection";
+import { PricingSection } from "./Components/Banner/PricingSection";
 
 function App() { 
 
@@ -12,6 +14,9 @@ function App() {
       <main>
         <Banner></Banner>
         <StatSection></StatSection>
+        {/* Premium Digital Tools  */}
+        <StepsSection></StepsSection>
+        <PricingSection></PricingSection>
       </main>
       <Footer></Footer>
     </>

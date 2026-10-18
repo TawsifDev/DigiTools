@@ -1,8 +1,7 @@
 import BannerImage from "../../assets/assets/banner.png";
 
 
-export const Banner = () => {
-    // Add your image path here later.
+export const Banner = () => { 
     const bannerImage = BannerImage;
 
     return (
